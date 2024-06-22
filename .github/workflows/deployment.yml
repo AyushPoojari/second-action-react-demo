@@ -1,5 +1,6 @@
-name: Test Project
-on: push
+# Workflow
+name: Deployment of Project
+on: [push, workflow_dispatch]
 # Jobs
 jobs:
   # Test Job
